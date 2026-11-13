@@ -1,0 +1,33 @@
+<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="Cities 2 Trade Online" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="Trade resources with friends' cities in near real time." />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<LongDescription>
+Each player builds their own city. Cities connect through a small relay server and send and receive resources.
+Phase 1 (current): connection, player list and settings. Resource trade comes next.
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="0.1.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="" DisplayName="" Link="" />
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog>
+0.1.0: first test build (connection only).
+	</ChangeLog>
+	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
+	<ExternalLink Type="github" Url="https://github.com/Raz3n28/Cities-2-Trade-Online" />
+</Publish>
